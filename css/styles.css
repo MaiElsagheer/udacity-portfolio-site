@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    height: auto;
+    margin-top: 3px;
+    display: inline-block;
+}
+
+.my-name {
+    font-style: italic;
+    height: auto;
+    color: darkmagenta;
+    float: right;
+}
+
+.search {
+    text-align: center;
+    padding-top: 30px;
+}
+
+body {
+    background-color: beige;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+
+.main {
+    width: 1000;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.logo-MyName {
+    display: inline;
+    margin: auto;
+    height: auto;
+}
+
+.topnav,
+.down-nav {
+    text-align: center;
+    padding: 10px;
+    background-color: plum;
+}
+
+.topnav a:hover,
+.down-nav a:hover {
+    background-color: lightgrey;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    margin: 0;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+
+/* Add padding BETWEEN each column */
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Content */
+
+.content {
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.copyright {
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+    @media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    }
